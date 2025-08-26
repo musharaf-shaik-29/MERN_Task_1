@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigatin Bar</title>
+    <style>
+      #horizontal {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
+      .nav-hor-list {
+        display: block;
+        border: 1px solid blue;
+        padding: 1rem;
+        background-color: cadetblue;
+      }
+      .nav-hor-list:hover {
+        background-color: rgb(217, 255, 0);
+      }
+      .vertical {
+        display: grid;
+        width: 7%;
+      }
+      .nav-ver-list {
+        display: block;
+        border: 1px solid blue;
+        padding: 1rem;
+        background-color: cadetblue;
+      }
+      .nav-ver-list:hover {
+        background-color: rgb(217, 255, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="padding: 1rem">Horizontal Navigation Bar</h3>
+    <nav id="horizontal">
+      <div class="nav-hor-list">
+        <a href="#home" style="text-decoration: none; color: black">Home</a>
+      </div>
+      <div class="nav-hor-list">
+        <a href="#css" style="text-decoration: none; color: black">CSS</a>
+      </div>
+      <div class="nav-hor-list">
+        <a href="#html" style="text-decoration: none; color: black">HTML</a>
+      </div>
+      <div class="nav-hor-list">
+        <a href="#js" style="text-decoration: none; color: black">Java</a>
+      </div>
+      <div class="nav-hor-list">
+        <a href="#bs" style="text-decoration: none; color: black">Bootstrap</a>
+      </div>
+    </nav>
+    <h3>Vertical Navigation Bar</h3>
+    <nav class="vertical">
+      <div class="nav-ver-list">
+        <a href="#home" style="text-decoration: none; color: black">Home</a>
+      </div>
+      <div class="nav-ver-list">
+        <a href="#css" style="text-decoration: none; color: black">CSS</a>
+      </div>
+      <div class="nav-ver-list">
+        <a href="#html" style="text-decoration: none; color: black">HTML</a>
+      </div>
+      <div class="nav-ver-list">
+        <a href="#js" style="text-decoration: none; color: black">Java</a>
+      </div>
+      <div class="nav-ver-list">
+        <a href="#bs" style="text-decoration: none; color: black">Bootstrap</a>
+      </div>
+    </nav>
+  </body>
+</html>

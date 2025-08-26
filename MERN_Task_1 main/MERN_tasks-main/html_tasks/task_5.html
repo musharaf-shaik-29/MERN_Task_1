@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        table,tr,th,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #button{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="color:blue; text-align: center;">Registration form</h1>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" size="53"></td>
+        </tr>
+        <tr>
+            <th>Re-enter Password</th>
+            <td><input type="password" size="53"></td>
+        </tr>
+        <tr>
+            <th rowspan="2">Gender</th>
+            <td><input type="radio">Male</input></td>  
+        </tr>
+        <tr>
+            <td><input type="radio">Female</td>
+        </tr>
+        <tr>
+            <th>Age:</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea name="address" id="address" rows="5" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td><input type="text" size="53"></td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td><select name="country" id="country">
+                    <option value="countrychoose" selected disabled>Choose your Country</option>
+                    <option value="india">India</option>
+                    <option value="srilanka">Sri Lanka</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="bangladesh">Bangladesh</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Languages Known</th>
+            <td>
+                <input type="checkbox">English</input>
+                <input type="checkbox">Kannada</input>
+                <input type="checkbox">Hindi</input>
+                <input type="checkbox">Telugu</input>
+            </td>  
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox">Hereby I declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end; margin:0">Log in to <a href="www.ethnus.com">Ethnus</a> website</p>
+            </td>
+        </tr>
+    </table>
+    <button id="button">Register</button>
+
+</body>
+</html>
